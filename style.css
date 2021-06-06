@@ -1,0 +1,205 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url("/fonts/Roboto-Thin.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("fonts/Roboto-Light.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.Chevrolet {
+  font-family: "Roboto-Light";
+}
+
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 0 35px;
+  border-left: solid 1px black;
+}
+
+.nav-link:hover {
+  background-color: #cac7c7;
+}
+
+.nav-link:last-child {
+  border-right: solid 1px black;
+}
+
+.logo__content {
+  font-size: 78px;
+  font-family: "Roboto-Light";
+}
+
+.logo {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.logo__thin {
+  font-family: "Roboto-Thin";
+}
+
+.content-about{
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.content_team {
+  font-size: 40px;
+  margin-top: 50px;
+  max-width: 1250px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content_text {
+  text-align: center;
+}
+
+.my-name {
+  font-size: 24px;
+}
+
+.photo_team {
+  height: 300px;
+}
+
+.our-team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.training {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+}
+
+.photo_group {
+  height: 130px;
+}
+
+
+.card {
+  padding-left: 20px;
+  text-align: center;
+}
+
+.card_b {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.card_text {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.card:last-child {
+  padding-right: 20px;
+}
+
+.our-team {
+  margin-top: 50px;
+}
+
+.footer_up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.vk {
+  position: absolute;
+  left: 51%;
+}
+
+.inst {
+  position: absolute;
+  right: 51%;
+}
+
+.size {
+  width: 50px;
+}
+
+.footer_down {
+  margin-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+  background-color: #3a3838;
+  font-size: 18px;
+}
+
+.footer {
+  margin-top: 100px;
+}
+
+.header_contacts {
+  margin-bottom: 50px;
+}
+
+.contacts_content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content_down {
+  margin-top: 30px;
+  list-style: none;
+  font-size: 24px;
+  color: #3a3838;
+  line-height: 1.5em;
+  margin-bottom: 50px;
+}
+
+.map {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */

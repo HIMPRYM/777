@@ -1,0 +1,58 @@
+
+.link{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  margin-left: 40px;
+
+
+}
+
+#navbar{
+  padding: 30px 0;
+  width: 100%;
+  position: fixed;
+  top: 0; right: 0; 
+  background-color:rgba(204,204,204,0.90);
+  text-align: center;
+  z-index: 1000;
+}
+#rectangle {border-radius: 20px;
+    width: 500px;
+    height: 300px;
+    background-color:##55A8F5;
+    }
+
+.logo{
+
+  max-width: 160px;
+  width: 150px;
+  height: auto;
+
+}
+
+.button {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 30px;
+  background: #F65756;
+  transition: 0.2s;
+  outline: none;
+} 
+
+p{color:#D40C0B;
+  font-size:50px;
+  padding:0px;
+ }
+input{padding: 100px;
+  line-height:1.5;
+      } 
+body{background:url("pip.jpg");
+         background-size:100%;}
+
+button {background-color:#F65756;
+    color: black;
+    padding: 25px 100px;
+    border-radius: 20px;}
